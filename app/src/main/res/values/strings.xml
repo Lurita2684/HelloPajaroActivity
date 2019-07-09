@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PajaroActivity</string>
+    <string name="title_mapa">Mapa</string>
+    <string name="title_foto">Foto</string>
+    <string name="title_lista">Lista</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_mapa_fragment">Hello blank Mapa Fragment</string>
+    <string name="hello_foto_fragment">Hello blank Foto Fragment</string>
+    <string name="hello_lista_fragment">Hello blank Lista Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

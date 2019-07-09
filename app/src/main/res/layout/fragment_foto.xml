@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FotoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/image_foto_pajaro"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pato_mandarin"/>
+    <TextView
+        android:id="@+id/tv_foto_pajaro"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="50dp"
+        android:hint="Titulo"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/hacer_foto_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="500dp"
+        android:text="HACER FOTO "
+        android:background="#00BCD4"/>
+    <Button
+        android:id="@+id/guardar_foto_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="210dp"
+        android:text="GUARDAR"
+        android:background="#00BCD4"/>
+
+</FrameLayout>
